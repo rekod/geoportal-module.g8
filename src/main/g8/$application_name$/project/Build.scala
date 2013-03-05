@@ -24,7 +24,7 @@ object ApplicationBuild extends Build {
 		resolvers += Resolver.url("Violas Play Modules", url("http://www.joergviola.de/releases/"))(Resolver.ivyStylePatterns),
 		resolvers += "Open Source Geospatial Foundation Repository" at "http://download.osgeo.org/webdav/geotools/",
 		resolvers += "Gradoservice Maven repository" at "http://git.prochar.ru/maven/",
-		resolvers += "Apache Maven repository" at " http://repo1.maven.org/maven2/
+		resolvers += "Apache Maven repository" at " http://repo1.maven.org/maven2/"
     )
 
 }
