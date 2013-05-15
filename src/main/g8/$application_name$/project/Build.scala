@@ -16,7 +16,7 @@ object ApplicationBuild extends Build {
 		"com.gradoservice" %% "geoportal" % "3.1.3"	  
     )
 
-    val main = play.Project(appName, appVersion, appDependencies, mainLang = SCALA).settings(
+    val main = play.Project(appName, appVersion, appDependencies).settings(
       // Add your own project settings here     
 	    organization := appOrganization,
 		resolvers += Resolver.url("Objectify Play Repository", url("http://schaloner.github.com/releases/"))(Resolver.ivyStylePatterns),
