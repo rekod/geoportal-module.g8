@@ -1,4 +1,4 @@
-package controllers.geoportal.modules.districts;
+package controllers.geoportal.modules.$application_name$;
 
 import controllers.Abstract;
 
