@@ -13,7 +13,7 @@ object ApplicationBuild extends Build {
 		javaCore,
 		javaJdbc,
 		javaEbean,
-		"com.gradoservice" %% "geoportal" % "3.1.6"	  
+		"com.gradoservice" %% "geoportal" % "3.1.7"	  
     )
 
     val main = play.Project(appName, appVersion, appDependencies).settings(
