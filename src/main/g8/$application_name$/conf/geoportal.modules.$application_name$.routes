@@ -4,6 +4,3 @@
 
 # Home page
 GET     /                           controllers.geoportal.modules.$application_name$.Application.index
-
-# Map static resources from the /public folder to the /assets URL path
-GET     /public/*file               controllers.Assets.at(path="/public", file)
